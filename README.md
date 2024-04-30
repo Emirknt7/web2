@@ -1,0 +1,2 @@
+# web2
+ HTML ve CSS kullanarak tasarlanmış minimal bir giriş ekranı oluşturdum. Şık ve kullanıcı dostu tasarımıyla dikkat çeken bu ekran, temel bilgileri içerir ve kullanıcıların kolayca giriş yapmasını sağlar./I created a minimal login screen designed using HTML and CSS. This screen, which attracts attention with its stylish and user-friendly design, contains basic information and allows users to log in easily.
