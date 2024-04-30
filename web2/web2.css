@@ -1,0 +1,121 @@
+ul{
+    list-style-type:none; /* listenin başındaki ikonlar silindi*/
+     width: 100%; /* %100 ekrana oranlama  */
+     background-color: black;
+
+}
+ul li{
+    display: inline-block;
+    background-color: black;
+    width: 100px;
+    padding: 15px;  /* iç cercevede kenarlardan pay alındı  */
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+ul li a:hover{
+    color: red;
+    transition: 0.5ms; /* mouser uzerine geldiğinde kac saniyede tepki vereceğini gösteriyor*/
+}
+ul li a{
+    text-decoration: none;  /*  linklerin altındaki cizgi silindi*/
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ul li a i{
+    padding-right: 5px; /* iconlar ile linklerin arasını ayarlar*/ 
+}
+#haber{
+    position: absolute; /* kordinatları bağımsız yapıldı*/
+    z-index: 1; /* öne cekildi*/
+    display: none;  /* görünürlüğü değitirildi görünmez hale getirildi*/
+    width: 75px;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.haberiçi:hover #haber{
+    display: block;
+
+}
+#haber2{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 50px;
+    width: 50px;
+}
+.haber2içi:hover #haber2{
+    display: block;
+
+}
+.banner{
+    background-color: black;
+    border-radius: 20px;
+
+}
+.center{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Yatayda merkezleme */
+    align-items: center; /* Dikeyde merkezleme */
+    height: 75vh;
+}
+.form{
+    background: url('yapay_zeka_ve_yazlm_mhendisin_kavgas\ \(1\).jpg');
+    width: 500px;
+    height: 600px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-size: cover;
+    position: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgb(0, 0,5);
+}
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter:brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+
+}
+h1{
+    margin-bottom: 60px;
+    text-shadow: 0px 0px 2px rgb(0,0, 0,5);
+    font-size: 24px;
+    font-weight: normal;
+}
+label{
+    color:white;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+
+}
+input{
+    background-color: aquamarine;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20;
+    color: black;
+}
+button{
+    background-color: white;
+    height: 40px;
+    line-height:40px;
+    border-radius: 90px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgb(0, 0,0, 3);
+    font-size: 12px;
+    text-transform: uppercase;
+}
